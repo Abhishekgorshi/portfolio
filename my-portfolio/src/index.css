@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+/* Yellow background shapes */
+.section {
+  position: relative;
+  padding: 60px 20px;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #ffd54f;
+  top: -40px;
+  right: -40px;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.section::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #ffc107;
+  bottom: -30px;
+  left: -30px;
+  border-radius: 50%;
+  opacity: 0.25;
+  z-index: -1;
+}

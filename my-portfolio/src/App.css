@@ -1,0 +1,389 @@
+/* navbar component css */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Links */
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Yellow hover line */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background: #ffc107;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Resume button */
+.resume-btn {
+  background: #ffc107;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: black !important;
+  font-weight: bold;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* hero component css */
+/* Hero layout */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.hero-buttons .btn {
+  background: #ffc107;
+  padding: 10px 18px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.hero-buttons .outline {
+  background: white;
+  border: 2px solid #ffc107;
+}
+
+/* Image */
+.hero-img img {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 200px;
+  }
+}
+/* project component css */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  background: #ffc107;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+/* certificate components css */
+.certificates {
+  text-align: center;
+}
+
+/* Row layout */
+.certificate-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+/* Reverse zigzag */
+.certificate-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Image style */
+.certificate-row img {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Text */
+.certificate-row p {
+  font-size: 18px;
+  max-width: 300px;
+  text-align: left;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .certificate-row,
+  .certificate-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .certificate-row p {
+    text-align: center;
+  }
+}
+/* footer component css */
+.footer {
+  background: #111;
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-left h3 {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  display: block;
+  color: #ffc107;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+/* skill component css */
+.skills-list {
+  margin-top: 40px;
+}
+
+/* Row */
+.skill-row {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 35px 0;
+}
+
+/* Zigzag */
+.skill-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Circle Image */
+.skill-row img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffc107;
+  padding: 10px;
+  object-fit: contain;
+}
+
+/* Text */
+.skill-row h3 {
+  margin: 0;
+}
+
+.skill-row p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .skill-row,
+  .skill-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* about me page css */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.about-content h3 {
+  margin-bottom: 15px;
+  color: #ffc107;
+}
+
+.about-content p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-info p {
+  margin: 8px 0;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ffc107;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* qualification page css */
+.qualifications-page {
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.qualification-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.qualification-container h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.qualification-card {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.qualification-card:hover {
+  transform: translateY(-5px);
+}
+
+.qualification-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.qualification-card a{
+  color:yellowgreen;
+}

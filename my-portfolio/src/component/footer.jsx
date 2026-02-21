@@ -8,9 +8,8 @@ function Footer() {
           <p>MERN Stack Developer</p>
         </div>
        <div>
-        Whatsapp <br>
-        8273845203</br>
-       </div>
+      <h4>Whatsapp</h4>
+         <p> 8278345203</p>    </div>
         <div className="footer-links">
           <a href="https://github.com/Abhishekgorshi" target="_blank" rel="noreferrer">
             GitHub

@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 const Certificates = () => {
   return (
     <section className="section certificates">
@@ -7,17 +6,19 @@ const Certificates = () => {
       <div className="certificate-list">
 
         <div className="certificate-row">
-        <Link to={"/images/Abhishek_MERN_certificate.jpg"}>  <img src="/images/Abhishek_MERN_certificate.jpg" alt="MERN certificate" /></Link>
+        <a href="/images/Abhishek_MERN_certificate.jpg" target="blank">  <img src="/images/Abhishek_MERN_certificate.jpg" alt="MERN certificate" /></a>
           <p>MERN Stack Certificate</p>
         </div>
 
         <div className="certificate-row reverse">
-          <img src="/images/Abhishek_Btech_certificate.png" alt="BTech certificate" />
+          <a href="/images/Abhishek_Btech_certificate.png" target="blank">
+          <img src="/images/Abhishek_Btech_certificate.png" alt="BTech certificate" /></a>
           <p>B.Tech Graduation Certificate</p>
         </div>
 
         <div className="certificate-row">
-          <img src="/images/Abhishek_Java_certificate.jpg" alt="Java certificate" />
+          <a href="/images/Abhishek_Java_certificate.jpg" target="blank">
+          <img src="/images/Abhishek_Java_certificate.jpg" alt="Java certificate" /></a>
           <p>Java Certificate</p>
         </div>
 

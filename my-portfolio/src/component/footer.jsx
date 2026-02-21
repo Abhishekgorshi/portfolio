@@ -9,10 +9,11 @@ function Footer() {
         </div>
 
         <div className="footer-links">
-          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Abhishekgorshi" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
+          <a
+          href="https://www.linkedin.com/in/abhishek-gorshi-4ab5b8233" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
           <a href="/resume.pdf" download>

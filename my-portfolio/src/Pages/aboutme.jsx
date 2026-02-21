@@ -24,8 +24,8 @@ function AboutMe() {
             </p>
 
             <div className="about-info">
-              <p><strong>Email:</strong> abhishekgorshi76@gmail.com</p>
-              <p><strong>Contact number</strong>8278345203</p>
+              <p><strong>Email:</strong> abhishekgorshi76@gmail.com </p>
+              <p><strong>Contact number: </strong> 8278345203</p>
             </div>
 
             <a href="/resume.pdf" download className="btn">

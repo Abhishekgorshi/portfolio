@@ -11,7 +11,7 @@ function NavBar() {
         <Link to="/qualification">Qualifications</Link>
 
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Abhishekgorshi"
           target="_blank"
           rel="noreferrer"
         >
@@ -19,7 +19,7 @@ function NavBar() {
         </a>
 
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/abhishek-gorshi-4ab5b8233"
           target="_blank"
           rel="noreferrer"
         >

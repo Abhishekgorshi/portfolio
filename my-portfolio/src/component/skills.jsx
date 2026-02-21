@@ -37,7 +37,7 @@ const Skills = () => {
           </div>
         </div>
 
-          <div className="skill-row reverse">
+          <div className="skill-row">
           <img src="/images/postmanlogo.png" alt="PostMan" />
           <div>
             <h3>PostMan</h3>
@@ -46,7 +46,7 @@ const Skills = () => {
         </div>
  
        <div className="skill-row reverse">
-          <img src="/images/nodemailerlogo.jpg" alt="NodeMailer" />
+          <img src="/images/nodemialerlogo.jpg" alt="NodeMailer" />
           <div>
             <h3>NodeMailer</h3>
             <p>Most popular email sending library for Node.js.</p>

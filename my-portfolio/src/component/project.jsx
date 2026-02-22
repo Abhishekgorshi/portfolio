@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="project-card">
           <h3>Blog Website</h3>
           <p>CRUD blog app with authentication using Node.js & MongoDB.</p>
-          <a href="/" target="_blank" rel="noreferrer">Live Demo</a>
+          <a href="https://blogproject-five-alpha.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
         </div>
 
         <div className="project-card">

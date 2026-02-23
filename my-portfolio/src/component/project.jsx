@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="project-card">
           <h3>Consulting Website</h3>
           <p>Business consulting responsive website with React.</p>
-          <a href="/" target="_blank" rel="noreferrer">Live Demo</a>
+          <a href="/consultingproject.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
         </div>
 
       </div>

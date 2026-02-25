@@ -6,6 +6,8 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Hi, I'm Abhishek Gorshi</h1>
         <p>Full Stack Developer | MERN Stack | React & Node.js</p>
+        <p>I build full-stack web apps using React, Node.js & MongoDB.
+Looking for developer role.</p>
 
         <div className="hero-buttons">
           <Link to="/aboutme" className="btn">About Me</Link>

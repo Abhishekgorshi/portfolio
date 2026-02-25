@@ -28,7 +28,7 @@ function AboutMe() {
               <p><strong>Contact number: </strong> 8278345203</p>
             </div>
 
-            <a href="/resume.pdf" download className="btn">
+            <a href="/Abhishek_MERN_Developer.pdf" download className="btn">
               Download Resume
             </a>
 

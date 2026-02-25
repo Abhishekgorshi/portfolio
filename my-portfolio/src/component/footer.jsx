@@ -18,7 +18,7 @@ function Footer() {
           href="https://www.linkedin.com/in/abhishek-gorshi-4ab5b8233" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a href="/resume.pdf" download>
+          <a href="/Abhishek_MERN_Developer.pdf" download>
             Download Resume
           </a>
         </div>

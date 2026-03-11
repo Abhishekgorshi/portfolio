@@ -26,7 +26,7 @@ function NavBar() {
           LinkedIn
         </a>
 
-        <a href="/Abhishek_MERN_Developer.pdf" download className="resume-btn" target="_blank">
+        <a href="/Abhishek_MERN_Developer.pdf" download className="resume-btn">
           Resume
         </a>
       </div>
